@@ -133,6 +133,29 @@ h1, h2, h3, h4, h5, h6, hgroup, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, blockquote, 
     width: 50%;
 }
 
+#gallery-3 {
+    margin: auto;
+}
+#gallery-3 .gallery-item {
+    float: left;
+    text-align: center;
+    width: 25%;
+}
+.btn-yellow{
+    background: #c59d5f;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    line-height: 30px;
+    text-align: center;
+    text-decoration: none;
+    display:inline-block;
+}
+.btn-yellow:hover{
+    background: #fff;
+}
+
 
 .article__header[class] .article__headline .headline__description .btn:hover,
                     .article__header[class] .article__headline .headline__description .btn:active,
