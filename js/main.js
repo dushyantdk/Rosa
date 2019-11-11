@@ -2400,6 +2400,7 @@ if ( navigator.userAgent.match( /iPad;.*CPU.*OS 7_\d/i ) && window.innerHeight !
 	window.addEventListener( "scroll", fixViewportHeight, false );
 	window.addEventListener( "orientationchange", fixViewportHeight, false );
 	fixViewportHeight();
+
 }
 
 function detectIE() {
@@ -2445,6 +2446,8 @@ $( function() {
 			$html.removeClass( 'navigation--is-visible' );
 			timeout = 600;
 		}
+        $('.nav--main li').removeClass('current-menu-item');
+        $(this).parent().addClass('current-menu-item');
 
 
 		if ( location.pathname.replace( /^\//, '' ) == this.pathname.replace( /^\//, '' ) && location.hostname == this.hostname ) {
@@ -2454,11 +2457,17 @@ $( function() {
 				setTimeout( function() {
 					$( 'html,body' ).animate( {
 						scrollTop: target.offset().top - headerHeight
-					}, 1000 );
+                        
+					}, 1000);
+
+
 				}, timeout );
 				return false;
 			}
 		}
+        // $('.nav--main li').removeClass('current-menu-item');
+        // $(this).parent().addClass('current-menu-item');
+        // console.log(this);
 
 	} );
 } );
@@ -2505,3 +2514,14 @@ function closest(e, classname) {
             $(".site-header").removeClass("shrink");
         }
     });
+
+$(window).scroll(function() {
+        var scrollDistance = $(window).scrollTop();
+        // Assign active class to nav links while scolling
+        $('.scroll-page-section').each(function(i) {
+                if ($(this).position().top <= scrollDistance) {
+                        $('.nav--main li.current-menu-item').removeClass('current-menu-item');
+                        $('.nav--main li').eq(i).addClass('current-menu-item');
+                }
+        });
+}).scroll();
