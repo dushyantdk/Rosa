@@ -5,6 +5,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- <link rel="stylesheet" type="text/css" href="css/demo.css"> -->
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/style.min.css">
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
@@ -15,6 +16,7 @@
 	<link rel="stylesheet" href="css/css/style.css" type="text/css" media="all">
 	<link rel="stylesheet" href="css/css/styles.css" type="text/css" media="all">
 	<link rel="stylesheet" href="css/css/instagram-widget.css" type="text/css" media="all">
+	<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="all">
 
 </head>
 <body class="home page-template-default page page-id-5 page-parent header--sticky nav-scroll-hide header--transparent theme-rosa woocommerce-no-js" data-smoothscrolling data-color="#C59D5F" >
@@ -42,30 +44,19 @@
 						<h2 class="accessibility">Primary Navigation</h2>
 							<ul id="menu-main-menu-2" class="nav  nav--main  nav--items-menu">
 								<li id="menu-item-727" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-5 current_page_item menu-item-727">
-									<a href="#" aria-current="page">Home</a>
+									<a href="#about" aria-current="page">About Us</a>
 								</li>
 								<li id="menu-item-728" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-728">
-									<a href="#">Reservations</a>
+									<a href="#gallery">Gallery</a>
 								</li>
-								<li id="menu-item-732" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-732">
-									<a href="#">Menu</a>
-									<ul class="sub-menu">
-										<li id="menu-item-1198" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1198">
-											<a href="#">Online Order</a>
-										</li>
-									</ul>
+								<li id="menu-item-728" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-728">
+									<a href="#service">Our Services</a>
 								</li>
-								<li id="menu-item-729" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-729">
-									<a href="#">Blog</a>
+								<li id="menu-item-728" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-728">
+									<a href="#client">Happy Clients</a>
 								</li>
-								<li id="menu-item-734" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-734">
-									<a href="#">Features</a>
-								</li>
-								<li id="menu-item-731" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-731">
-									<a href="#">Shop</a>
-								</li>
-								<li id="menu-item-730" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-730">
-									<a href="#">Contact</a>
+								<li id="menu-item-728" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-728">
+									<a href="#contact">Contact us</a>
 								</li>
 							</ul>
 							<ul id="menu-social-links" class="nav--main  nav--items-social  nav">
@@ -81,28 +72,14 @@
 										<span class="screen-reader-text">facebook</span>
 									</a>
 								</li>
-								<!-- <li id="menu-item-686" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-686">
-									<a target="_blank" rel="noopener noreferrer" href="#">
-										<span class="screen-reader-text">tripadvisor</span>
-									</a>
-								</li> -->
 							</ul>
-							<!-- <nav class="nav  nav--main nav--items-woocommerce">  
-        						<li class="menu-item menu-item--cart">
-            						<a href="#" class="cart-link js-open-cart">
-                						<span class="screen-reader-text"></span>
-                						<i class="icon-shopping-cart"></i>
-                						<div class="cart-count"><span>0</span></div>
-                					</a>
-        						</li>
-                            </nav> -->
 						</nav>
 						<div class="nav-overlay"></div>
 					</div>
 				</div><!-- .flexbox -->
 			</div><!-- .container -->
 		</div><!-- .site-header -->
-		<header data-bully class="c-hero  article__header  article__header--page full-height" data-type="image">
+		<header data-bully class="scroll-page-section c-hero  article__header  article__header--page full-height" data-type="image" id="about">
 			<div class="c-hero__background c-hero__layer" data-rellax data-rellax-container>
 				<img class="c-hero__image" data-rellax src="images/0a05513b-6ec5-4c43-8098-ce5065a70514.jpg" alt="Home Page"/>
 			</div>
@@ -126,31 +103,50 @@
 				</hgroup>
 			</div>
 		</header>
-		<article id="post-5" class="article--page article--main article--arrow border-simple post-5 page type-page status-publish has-post-thumbnail hentry">
+		<article data-bully id="gallery" class="scroll-page-section article--page article--main article--arrow border-simple post-5 page type-page status-publish has-post-thumbnail hentry">
 			<section class="article__content">
 				<div class="container">
 					<section class="page__content  js-post-gallery  cf">
 						<div class="pixcode  pixcode--grid  grid">
-							<div class="island grid__item six-twelfths palm-one-whole">
-								<p style="text-align: center;"></p>
+							<div class="island grid__item palm-one-whole text-center">
 								<hgroup class="pixcode  pixcode--heading article__headline">
-									<h2 class="headline__secondary"><span class="first-letter">D</span>iscover</h2>
-									<h1 class="headline__primary">Our Story</h1>
+									<h2 class="headline__secondary text-center"><span class="first-letter">G</span>allery</h2>
+									<!-- <h1 class="headline__primary">Our Story</h1> -->
 								</hgroup>
 								<p style="text-align: center;"></p>
-								<div class="pixcode  pixcode--separator  separator separator--flower separator_color--color">✻</div>
-								<p style="text-align: center;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>
-								<p style="text-align: center;">
-									<a class="pixcode  pixcode--btn  btn  btn--text" href="#">About Us</a>
-								</p>
-							</div>
-							<div class="grid__item six-twelfths palm-one-whole">
-								<div id="gallery-0" class="gallery galleryid-5 gallery-columns-1 gallery-size-full">
-									<figure class="gallery-item">
-										<div class="gallery-icon landscape">
-											<img width="551" height="419" src="images/65e54c5a-950c-46d0-b198-377c35e004bc.jpg" class="attachment-full size-full" alt="">
+								<!-- Place somewhere in the <body> of your page -->
+								<div class="flexslider carousel">
+								  <ul class="slides">
+								    <li>
+								    	<div class="gallery-slider-item">
+										    <img src="images/menu-thumb-2-300x218.jpg" />
+										    <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
+										    <a href="#">read more <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
 										</div>
-									</figure>
+								    </li>
+								    <li>
+								    	<div class="gallery-slider-item">
+										    <img src="images/menu-thumb-1-300x218.jpg" />
+										    <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
+										    <a href="#">read more <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+										</div>
+								    </li>
+								    <li>
+								    	<div class="gallery-slider-item">
+										    <img src="images/menu-thumb-4-300x218.jpg" />
+										    <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
+										    <a href="#">read more <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+										</div>
+								    </li>
+								    <li>
+								    	<div class="gallery-slider-item">
+										    <img src="images/menu-thumb-6-300x218.jpg" />
+										    <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
+										    <a href="#">read more <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+										</div>
+								    </li>
+								    <!-- items mirrored twice, total of 12 -->
+								  </ul>
 								</div>
 							</div>
 						</div>
@@ -161,175 +157,166 @@
 				<path fill="currentColor" d="M80.3,61.5c0,0,22.1-2.7,43.1-5.4s41-5.4,36.6-5.4c-21.7,0-34.1-12.7-44.9-25.4S95.3,0,80.3,0c-15,0-24.1,12.7-34.9,25.4S22.3,50.8,0.6,50.8c-4.3,0-6.5,0,3.5,1.3S36.2,56.1,80.3,61.5z"></path>
 			</svg>
 			<div class="down-arrow down-arrow--bubble">
-				<div class="arrow"></div>
+				<div class="arrow">					
+					<i class="fa fa-arrow-down"></i>
+				</div>
 			</div>
 		</article>
-		<a id="recipes"></a>
-		<header data-bully="" id="post-15-title" class="c-hero  article__header  article__header--page two-thirds-height" data-type="image">
-			<div class="c-hero__background c-hero__layer rellax-element" data-rellax="" data-rellax-container="">
-				<img class="c-hero__image" data-rellax="" src="images/0a05513b-6ec5-4c43-8098-ce5065a70514.jpg" alt="Discover Menu">
-			</div>
-			<div class="c-hero__wrapper">
-				<hgroup class="article__headline">
-					<h2 class="headline__secondary"><span class="first-letter">T</span>asteful</h2>
-					<h1 class="headline__primary">Recipes</h1>
-				</hgroup>
-			</div>
-		</header>
-		<article id="post-15" class="article--page article--main article--subpage border-simple post-15 page type-page status-publish has-post-thumbnail hentry">
+		<article data-bully id="service" class="scroll-page-section c-hero  article__header  article__header--page two-thirds-height">
 			<section class="article__content">
-				<div class="container">
+				<div class="c-hero__background c-hero__layer rellax-element" data-rellax="" data-rellax-container="">
+				<div class="c-hero__image bg-pink" data-rellax=""></div>
+			</div>
+				<div class="container service-container">
 					<section class="page__content  js-post-gallery  cf">
 						<div class="pixcode  pixcode--grid  grid">
-							<div class="grid__item six-twelfths palm-one-whole">
-								<div id="gallery-1" class="gallery galleryid-15 gallery-columns-2 gallery-size-medium">
+							
+							<div class="island grid__item palm-one-whole">
+								<hgroup class="pixcode  pixcode--heading article__headline">
+									<!-- <h2 class="headline__secondary"><span class="first-letter">D</span>iscover</h2> -->
+									<h1 class="headline__primary color-black-heading">Our Services</h1>
+								</hgroup>
+								<div id="gallery-3" class="gallery galleryid-15 gallery-columns-4 gallery-size-medium">
 									<figure class="gallery-item">
 										<div class="gallery-icon landscape">
-											<a data-title="menu-thumb-6" data-alt="" href="#">
-												<img width="300" height="218" src="images/d966f8e7-2d74-41b8-99e0-56719a74ed0b.jpg" class="attachment-medium size-medium" alt="">
-											</a>
+											<div class="service-icon">
+												<span>
+													<div class="service-icon-col">
+														<i class="fa fa-cutlery" aria-hidden="true"></i>
+													</div>
+												</span>
+												<h3>Restaurant</h3>
+												<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+											</div>
 										</div>
 									</figure>
 									<figure class="gallery-item">
 										<div class="gallery-icon landscape">
-											<a data-title="menu-thumb-2" data-alt="" href="#">
-												<img width="300" height="218" src="images/78750b18-b8d0-4a92-af70-5f9e17b37bbc.jpg" class="attachment-medium size-medium" alt="">
-											</a>
+											<div class="service-icon">
+												<span>
+													<div class="service-icon-col">
+														<img src="images/parking-sign.png">
+													</div>
+												</span>
+												<h3>Free Parking</h3>
+												<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+											</div>
 										</div>
 									</figure>
 									<figure class="gallery-item">
 										<div class="gallery-icon landscape">
-											<a data-title="menu-thumb-1" data-alt="" href="#">
-												<img width="300" height="218" src="images/d966f8e7-2d74-41b8-99e0-56719a74ed0b.jpg" class="attachment-medium size-medium" alt="">
-											</a>
+											<div class="service-icon">
+												<span>
+													<div class="service-icon-col">
+														<i class="fa fa-wifi" aria-hidden="true"></i>
+													</div>
+												</span>
+												<h3>Free Wi-Fi</h3>
+												<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+											</div>
 										</div>
 									</figure>
 									<figure class="gallery-item">
 										<div class="gallery-icon landscape">
-											<a data-title="menu-thumb-4" data-alt="" href="#">
-												<img width="300" height="218" src="images/0a05513b-6ec5-4c43-8098-ce5065a70514.jpg" class="attachment-medium size-medium" alt="">
-											</a>
+											<div class="service-icon">
+												<span>
+													<div class="service-icon-col">
+														<img width="40" src="images/spa-icon.png">
+													</div>
+												</span>
+												<h3>SPA</h3>
+												<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+											</div>
 										</div>
 									</figure>
 								</div>
 							</div>
-							<div class="island grid__item six-twelfths palm-one-whole">
+
+						</div>
+					</section>
+				</div>
+			</section>
+		</article>
+		<article data-bully id="client" class="scroll-page-section article--page article--main article--subpage border-simple post-15 page type-page status-publish has-post-thumbnail hentry">
+			<section class="article__content">
+				<!-- <div class="c-hero__background c-hero__layer rellax-element" data-rellax="" data-rellax-container="">
+				<img class="c-hero__image" data-rellax="" src="images/holiday2013_front.jpg" alt="Discover Menu">
+			</div> -->
+				<div class="container">
+					<section class="page__content  js-post-gallery  cf">
+						<div class="pixcode  pixcode--grid  grid">
+							<div class="island grid__item palm-one-whole text-center">
+								<p style="text-align: center;"></p>
 								<hgroup class="pixcode  pixcode--heading article__headline">
-									<h2 class="headline__secondary"><span class="first-letter">D</span>iscover</h2>
-									<h1 class="headline__primary">Menu</h1>
+									<h2 class="headline__secondary text-center"><span class="first-letter">C</span>ustomer</h2>
+									<!-- <h1 class="headline__primary">Our Story</h1> -->
 								</hgroup>
-								<div class="pixcode  pixcode--separator  separator separator--flower separator_color--dark">✻</div>
-								<p style="text-align: center;">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage.</p>
-								<p style="text-align: center;">
-									<a class="pixcode  pixcode--btn  btn  btn--text" href="#">View The Full Menu</a>
-								</p>
+								<p style="text-align: center;"></p>
+								<!-- Place somewhere in the <body> of your page -->
+								<div class="flexslider carousel">
+								  <ul class="slides">
+								    <li>
+								    	<div class="gallery-slider-item">
+										    <img src="images/menu-thumb-2-300x218.jpg" />
+										    <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
+										    <a href="#">read more <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+										</div>
+								    </li>
+								    <li>
+								    	<div class="gallery-slider-item">
+										    <img src="images/menu-thumb-1-300x218.jpg" />
+										    <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
+										    <a href="#">read more <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+										</div>
+								    </li>
+								    <li>
+								    	<div class="gallery-slider-item">
+										    <img src="images/menu-thumb-4-300x218.jpg" />
+										    <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
+										    <a href="#">read more <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+										</div>
+								    </li>
+								    <li>
+								    	<div class="gallery-slider-item">
+										    <img src="images/menu-thumb-6-300x218.jpg" />
+										    <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
+										    <a href="#">read more <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+										</div>
+								    </li>
+								    <!-- items mirrored twice, total of 12 -->
+								  </ul>
+								</div>
 							</div>
 						</div>
 					</section>
 				</div>
 			</section>
 		</article>
-		<a id="reservation"></a>
-		<header data-bully="" id="post-32-title" class="c-hero  article__header  article__header--page two-thirds-height" data-type="image">
-			<div class="c-hero__background c-hero__layer rellax-element" data-rellax="" data-rellax-container="">
-				<img class="c-hero__image" data-rellax="" src="images/0a05513b-6ec5-4c43-8098-ce5065a70514.jpg" alt="Make a Reservation">
-			</div>
-			<div class="c-hero__wrapper">
-				<hgroup class="article__headline">
-					<h2 class="headline__secondary"><span class="first-letter">T</span>he perfect</h2>
-					<h1 class="headline__primary">Blend</h1>
-				</hgroup>
-			</div>
-		</header>
-		<article id="post-32" class="article--page article--main article--subpage border-simple post-32 page type-page status-publish has-post-thumbnail hentry">
-			<section class="article__content">
-				<div class="container">
-					<section class="page__content  js-post-gallery  cf">
-						<div class="pixcode  pixcode--grid  grid">
-							<div class="island grid__item six-twelfths palm-one-whole">
+		<footer data-bully="" id="contact" class="site-footer scroll-page-section ">
+		<aside class="sidebar  sidebar--footer sidebar--footer__dark">
+			<div class="container">	
+				<div class="footer-widget-area">
+					<div class="pixcode  pixcode--grid  grid">
+							<div class="grid__item six-twelfths palm-one-whole">
 								<hgroup class="pixcode  pixcode--heading article__headline">
-									<h2 class="headline__secondary"><span class="first-letter">C</span>ulinary</h2>
-									<h1 class="headline__primary">Delight</h1>
+									<h2 class="headline__secondary"><span class="first-letter">C</span>ontact</h2>
+									<h1 class="headline__primary">Get In Touch</h1>
 								</hgroup>
 								<div class="pixcode  pixcode--separator  separator separator--flower separator_color--dark">✻</div>
-								<p style="text-align: center;">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum.</p>
+								<p style="text-align: center; margin-bottom:0 ">13 Hanway Square,Square London, London UK</p>
+								<p style="text-align: center;"><a href="tel:0987654321">0987654321</a></p>
 								<p style="text-align: center;">
-									<a class="pixcode  pixcode--btn  btn  btn--text" href="reservations/">Make a Reservation</a>
+									<a class="pixcode  pixcode--btn  btn-yellow" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+									<a class="pixcode  pixcode--btn  btn-yellow" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
 								</p>
 							</div>
 							<div class="grid__item six-twelfths palm-one-whole">
 								<div id="gallery-2" class="gallery galleryid-32 gallery-columns-2 gallery-size-small-size">
-									<figure class="gallery-item">
-										<div class="gallery-icon portrait">
-											<img width="400" height="600" src="images/0a05513b-6ec5-4c43-8098-ce5065a70514.jpg" class="attachment-small-size size-small-size" alt="">
-										</div>
-									</figure>
-									<figure class="gallery-item">
-										<div class="gallery-icon portrait">
-											<img width="400" height="600" src="images/0a05513b-6ec5-4c43-8098-ce5065a70514.jpg" class="attachment-small-size size-small-size" alt="">
-										</div>
-									</figure>
+										<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d109741.02912963188!2d76.69348788832072!3d30.735062643911245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fed0be66ec96b%3A0xa5ff67f9527319fe!2sChandigarh!5e0!3m2!1sen!2sin!4v1573379440947!5m2!1sen!2sin" style="width: 100%;height: 450px;" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+								
 								</div>
 							</div>
 						</div>
-					</section>
-				</div>
-			</section>
-		</article>
-		<footer data-bully="" class="site-footer ">
-		<aside class="sidebar  sidebar--footer sidebar--footer__dark">
-			<div class="container">	
-				<div class="footer-widget-area  col-1  two-thirds">
-					<aside class="sidebar">
-						<!-- <div id="text-3" class="widget-odd widget-first widget-1 two-thirds centered widget widget--menu widget_text">
-							<h4 class="widget__title widget--menu__title">About Rosa</h4>
-							<div class="textwidget">
-								<div class="pixcode  pixcode--separator  separator separator--flower">✻</div>
-								ROSA is an enchanting and easy-to-use parallax Restaurant WordPress theme that allows you to tell your story in a dynamic, narrative and enjoyable way, making it perfect for restaurants, bakeries, bars or coffee shops. 
-							</div>
-						</div> -->
-						<div id="nav_menu-2" class="widget-even widget-2 one-half centered widget widget--menu widget_nav_menu">	<h4 class="widget__title widget--menu__title">Follow Along</h4>
-							<div class="menu-widget-social-links-container">
-								<ul id="menu-widget-social-links" class="menu">
-									<li id="menu-item-687" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-687">
-										<a target="_blank" rel="noopener noreferrer" href="https://twitter.com/pixelgrade">twitter</a>
-									</li>
-									<li id="menu-item-688" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-688">
-										<a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/PixelGradeMedia">facebook</a>
-									</li>
-									<li id="menu-item-689" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-689">
-										<a target="_blank" rel="noopener noreferrer" href="https://www.pinterest.com/babbardel/">pinterest</a>
-									</li>
-									<li id="menu-item-690" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-690">
-										<a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/company/pixelgrade-media">linkedin</a>
-									</li>
-									<li id="menu-item-691" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-691">
-										<a target="_blank" rel="noopener noreferrer" href="https://www.tripadvisor.com.au/Restaurant_Review-g255060-d2332276-Reviews-La_Rosa_The_Strand-Sydney_New_South_Wales.html">tripadvisor</a>
-									</li>
-								</ul>
-							</div>
-						</div>
-						<div id="text-2" class="widget-odd widget-last widget-3 one-half centered widget widget--menu widget_text">
-							<h4 class="widget__title widget--menu__title">Newsletter</h4>
-							<div class="textwidget">
-								<form id="mc4wp-form-1" class="mc4wp-form mc4wp-form-738" method="post" data-id="738" data-name="Subscribe">
-									<div class="mc4wp-form-fields">
-										<div class="input-group">
-											<input type="email" id="mc4wp_email" name="EMAIL" required="" placeholder="Your email address.." class="form-control">
-											<button class="submit"><i class="icon-envelope"></i></button>
-										</div>
-									</div>
-									<label style="display: none !important;">Leave this field empty if you're human: 
-										<input type="text" name="_mc4wp_honeypot" value="" tabindex="-1" autocomplete="off">
-									</label>
-									<input type="hidden" name="_mc4wp_timestamp" value="1572074091">
-									<input type="hidden" name="_mc4wp_form_id" value="738">
-									<input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-1">
-									<div class="mc4wp-response"></div>
-								</form>
-							</div>
-						</div>
-					</aside>
 				</div>
 			</div>
 		</aside>
@@ -339,8 +326,8 @@
 			</svg>
 			<div class="btn--top">
 				<a href="#" class="btn--top_text">
-					<span class="btn__arrow btn__arrow--top"></span>
-					<span class="btn__arrow btn__arrow--bottom"></span>
+					<span class="btn__arrow btn__arrow--top"><i class="fa fa-arrow-up"></i></span>
+					<!-- <span class="btn__arrow btn__arrow--bottom"></span> -->
 				</a>
 			</div>
 			<div class="container">
@@ -390,7 +377,7 @@
 
 	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	
-		<script type="text/javascript" src="js/jquery.js"></script>
+		<!-- <script type="text/javascript" src="js/jquery.js"></script> -->
 <script type="text/javascript" src="js/jquery-migrate.min.js"></script>
 <script type="text/javascript" src="js/modernizr.min.js"></script>
 <script type="text/javascript" src="js/TweenMax.min.js"></script>
@@ -410,6 +397,19 @@
 var rosaStrings = {};
 /* ]]> */
 </script>
+<script type="text/javascript" src="js/jquery.flexslider.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript">
+	$(window).load(function() {
+      $('.flexslider').flexslider({
+        animation: "slide",
+        animationLoop: false,
+        itemWidth: 210,
+        itemMargin: 5,
+        minItems: 2,
+        maxItems: 3
+      });
+    });
+</script>
 </body>
 </html>
