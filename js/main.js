@@ -2516,12 +2516,12 @@ function closest(e, classname) {
     });
 
 $(window).scroll(function() {
-        var scrollDistance = $(window).scrollTop();
-        // Assign active class to nav links while scolling
-        $('.scroll-page-section').each(function(i) {
-                if ($(this).position().top <= scrollDistance) {
-                        $('.nav--main li.current-menu-item').removeClass('current-menu-item');
-                        $('.nav--main li').eq(i).addClass('current-menu-item');
-                }
-        });
+  var scrollDistance = $(window).scrollTop();
+  // Assign active class to nav links while scolling
+  $('.scroll-page-section').each(function(i) {
+    if ($(this).position().top <= scrollDistance) {
+      $('.nav--main li.current-menu-item').removeClass('current-menu-item');
+      $('.nav--main li').eq(i).addClass('current-menu-item');
+    }
+  });
 }).scroll();
