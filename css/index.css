@@ -7844,6 +7844,7 @@ a:hover > .pixcode--icon.circle, a:hover > .pixcode--icon.square {
 
 .header--transparent .nav--main a {
   color: white;
+  background: transparent !important;
 }
 
 .headroom--not-top .nav--main a {
@@ -12612,12 +12613,14 @@ html, body, body > .page {
     margin-bottom: 60px;
 }
 .gallery-slider-item h3 {
-    margin: 0px;
-    font-family: "Herr Von Muellerhoff", Palatino, serif;
-    font-weight: bold;
-    color: #3c3838;
-    font-size: 17px;
-    padding: 17px 0;
+  margin: 0px;
+  color: #3c3838;
+  font-size: 14px;
+  padding: 17px 0;
+  letter-spacing: 0;
+  font-weight: normal;
+  text-transform: none;
+  text-align: left;
 }
 .gallery-slider-item a{
   color: #fff;

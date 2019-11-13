@@ -92,6 +92,7 @@ html[xmlns] .flexslider .slides {
 .flexslider .slides img {
   height: auto;
   -moz-user-select: none;
+  cursor: pointer;
 }
 .flex-viewport {
   max-height: 2000px;
@@ -233,8 +234,7 @@ html[xmlns] .flexslider .slides {
   background: rgba(255, 255, 255, 0.7);
 }
 .flex-control-paging li a.flex-active {
-  background: #fff;
-  background: rgba(255, 255, 255, 0.9);
+  background: #c59d5f;
   cursor: default;
 }
 .flex-control-thumbs {
