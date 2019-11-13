@@ -1022,6 +1022,21 @@ h5, .epsilon {
   margin: 0;
 }
 
+#about .article__content {
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+#gallery .article__content {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+#client .article__content {
+  padding-bottom: 0;
+  padding-top: 0;
+}
+
 @media only screen and (max-width: 899px) {
   h5, .epsilon {
     font-size: 14px;
@@ -10422,7 +10437,7 @@ a.site-logo--text {
 
 @media only screen and (min-width: 900px) {
   .sidebar--footer {
-    padding: 66px 0 120px;
+    padding: 35px 0 120px;
   }
 }
 
