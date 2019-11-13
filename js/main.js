@@ -2446,8 +2446,6 @@ $( function() {
 			$html.removeClass( 'navigation--is-visible' );
 			timeout = 600;
 		}
-        $('.nav--main li').removeClass('current-menu-item');
-        $(this).parent().addClass('current-menu-item');
 
 
 		if ( location.pathname.replace( /^\//, '' ) == this.pathname.replace( /^\//, '' ) && location.hostname == this.hostname ) {
@@ -2465,9 +2463,6 @@ $( function() {
 				return false;
 			}
 		}
-        // $('.nav--main li').removeClass('current-menu-item');
-        // $(this).parent().addClass('current-menu-item');
-        // console.log(this);
 
 	} );
 } );
@@ -2516,7 +2511,7 @@ function closest(e, classname) {
     });
 
 $(window).scroll(function() {
-  var scrollDistance = $(window).scrollTop();
+  var scrollDistance = $(window).scrollTop()+parseInt(150);
   // Assign active class to nav links while scolling
   $('.scroll-page-section').each(function(i) {
     if ($(this).position().top <= scrollDistance) {
