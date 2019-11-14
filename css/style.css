@@ -6,6 +6,10 @@ div#page .header {
     border: 12px solid #fff;
     border-bottom: none;
 }
+
+.site-header.header--inversed.js-header.shrink .site-logo-img--light {
+    height: 100px;
+}
 div#page .header nav.navbar.navbar-expand-lg.navbar-light.bg-light {
     background: transparent !important;
 }
