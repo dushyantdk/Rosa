@@ -6728,6 +6728,11 @@ figure.alignleft, figure.alignright, figure.aligncenter, figure.alignnone {
   padding: 0;
 }
 
+.container.custom-container {
+    max-width: 1450px;
+    width: 100%;
+}
+
 .blurp--top {
   -webkit-transform-origin: 50% 100%;
   transform-origin: 50% 100%;
@@ -6742,6 +6747,12 @@ figure.alignleft, figure.alignright, figure.aligncenter, figure.alignnone {
   position: relative;
   z-index: 20;
   will-change: transform;
+}
+
+.article--main.customers{
+  padding: 0 0 150px;
+  overflow: hidden;
+  will-change: auto;
 }
 
 .article__parallax {
