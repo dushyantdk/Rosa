@@ -6730,7 +6730,6 @@ figure.alignleft, figure.alignright, figure.aligncenter, figure.alignnone {
 
 .container.custom-container {
     max-width: 1450px;
-    width: 100%;
 }
 
 .blurp--top {
